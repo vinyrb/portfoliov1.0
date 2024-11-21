@@ -98,25 +98,25 @@ function App() {
             <SkillCard
               title="Frontend"
               icon={Layout}
-              skills={['React', 'TypeScript', 'Tailwind CSS', 'Next.js']}
+              skills={['React', 'Tailwind CSS']}
               theme={theme}
             />
             <SkillCard
               title="Backend"
               icon={Server}
-              skills={['Node.js', 'Express', 'Python', 'Java']}
+              skills={['Java']}
               theme={theme}
             />
             <SkillCard
               title="Database"
               icon={Database}
-              skills={['MongoDB', 'PostgreSQL', 'Redis', 'Firebase']}
+              skills={['MySQL']}
               theme={theme}
             />
             <SkillCard
               title="Tools"
               icon={Laptop}
-              skills={['Git', 'Docker', 'AWS', 'Linux']}
+              skills={['Git']}
               theme={theme}
             />
           </div>
@@ -159,8 +159,6 @@ function App() {
               }`}>
                 <li>Make Web Portfolio</li>
                 <li>Database with PHP</li>
-                <li>Mobile App Development</li>
-                <li>Data Structures & Algorithms</li>
               </ul>
             </div>
           </motion.div>
