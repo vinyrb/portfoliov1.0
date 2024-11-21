@@ -60,7 +60,7 @@ export default function Header() {
             <ThemeToggle />
             {[
               { icon: Github, href: 'https://github.com/vinyrb' },
-              { icon: Linkedin, href: 'https://linkedin.com' },
+              { icon: Linkedin, href: 'https://id.linkedin.com/in/relvin-vincent-i-t-b7ba97293' },
               { icon: Mail, href: 'mailto:vinyrbe@gmail.com' },
             ].map(({ icon: Icon, href }) => (
               <motion.a
