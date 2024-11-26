@@ -37,7 +37,7 @@ export default function Header() {
             }`} />
             <span className={`font-bold text-xl ${
               theme === 'dark' ? 'text-white' : 'text-gray-900'
-            }`}>Vincent Tan</span>
+            }`}>Portfolio v1.0</span>
           </motion.div>
           <nav className="hidden md:flex space-x-8">
             {['About', 'Projects', 'Skills', 'Education'].map((item) => (

@@ -40,7 +40,8 @@ function App() {
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.2, duration: 0.5 }}
             >
-              I'm 18 years old. I live in Indonesia, a beautiful country with diverse cultures and landscapes. One of my hobbies is playing mobile games, especially strategy and adventure games. I enjoy the challenge and the fun of exploring different worlds and scenarios. I also like to chat with my online friends and share tips and tricks for the games we play. Playing mobile games helps me relax and have fun in my spare time
+              I’m a Grade 12 student with a deep passion for artificial intelligence. I’m fascinated by how AI is shaping the future and love exploring its potential to solve real-world problems. Whether it’s diving into the latest developments or experimenting with my own projects, I’m constantly seeking opportunities to learn and grow in this exciting field.
+              As I work toward my dreams, I’m eager to connect with like-minded individuals and contribute to innovative AI solutions that make a difference. Let’s create the future together!
             </motion.p>
             <motion.a
               href="#projects"
@@ -65,19 +66,21 @@ function App() {
           }`}>Featured Projects</h2>
           <div className="grid md:grid-cols-2 gap-8">
             <ProjectCard
-              title="Smart Task Manager"
-              description="A full-stack task management application with AI-powered task prioritization and real-time collaboration features."
-              image="https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?auto=format&fit=crop&w=800"
-              tech={['React', 'Node.js', 'MongoDB', 'Socket.io']}
-              github="https://github.com"
-              demo="https://demo.com"
+              title="Portfolio v0.0"
+              description=" This portfolio is an evolving collection of my work, showcasing the initial steps in my professional and creative endeavors. It includes a blend of [insert the type of work you do: design projects, code snippets, artworks, case studies, etc.], reflecting my dedication to learning and experimentation.
+                          Though it’s a version 0.0, it’s a testament to my passion and growth, serving as a foundation for bigger and better things to come. Stay tuned for future updates as I refine my skills and add new projects!
+."
+              image="https://unsplash.com/photos/programming-code-abstract-technology-background-of-software-developer-and-computer-script-ltpb_WinC3Y"
+              tech={['HTML', 'CSS', 'Javascript']}
+              github="https://github.com/vinyrb/portfolio"
+              demo="https://vinyrb.github.io/portfolio/"
               theme={theme}
             />
             <ProjectCard
-              title="EcoTrack"
-              description="An IoT-based environmental monitoring system that tracks and visualizes air quality metrics in real-time."
+              title="--"
+              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
               image="https://images.unsplash.com/photo-1516937941344-00b4e0337589?auto=format&fit=crop&w=800"
-              tech={['Python', 'React', 'AWS', 'Arduino']}
+              tech={[]}
               github="https://github.com"
               demo="https://demo.com"
               theme={theme}
@@ -98,13 +101,13 @@ function App() {
             <SkillCard
               title="Frontend"
               icon={Layout}
-              skills={['React', 'Tailwind CSS']}
+              skills={['HTML','CSS' ,'Tailwind CSS']}
               theme={theme}
             />
             <SkillCard
               title="Backend"
               icon={Server}
-              skills={['Java']}
+              skills={['Java','PHP']}
               theme={theme}
             />
             <SkillCard
