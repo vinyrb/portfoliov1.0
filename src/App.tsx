@@ -77,12 +77,12 @@ function App() {
               theme={theme}
             />
             <ProjectCard
-              title="--"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-              image="https://images.unsplash.com/photo-1516937941344-00b4e0337589?auto=format&fit=crop&w=800"
-              tech={[]}
-              github="https://github.com"
-              demo="https://demo.com"
+              title="CV"
+              description="This CV is a living reflection of my evolving journey, capturing the early moments of my professional and creative path while in senior high school.Stay tuned for upcoming updates as I hone my skills and introduce new projects along the way!"
+              image="https://images.unsplash.com/photo-1485988412941-77a35537dae4?q=80&w=2096&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              tech={['HTML', 'CSS']}
+              github="https://github.com/vinyrb/cv"
+              demo="https://vinyrb.github.io/cv/"
               theme={theme}
             />
           </div>
