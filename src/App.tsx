@@ -40,7 +40,7 @@ function App() {
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.2, duration: 0.5 }}
             >
-              I’m a Grade 12 student with a deep passion for artificial intelligence. I’m fascinated by how AI is shaping the future and love exploring its potential to solve real-world problems. Whether it’s diving into the latest developments or experimenting with my own projects, I’m constantly seeking opportunities to learn and grow in this exciting field.
+              I’m a fresh graduate student with a deep passion for artificial intelligence. I’m fascinated by how AI is shaping the future and love exploring its potential to solve real-world problems. Whether it’s diving into the latest developments or experimenting with my own projects, I’m constantly seeking opportunities to learn and grow in this exciting field.
               As I work toward my dreams, I’m eager to connect with like-minded individuals and contribute to innovative AI solutions that make a difference. Let’s create the future together!
             </motion.p>
             <motion.a
@@ -67,10 +67,10 @@ function App() {
           <div className="grid md:grid-cols-2 gap-8">
             <ProjectCard
               title="Portfolio v0.0"
-              description=" This portfolio is an evolving collection of my work, showcasing the initial steps in my professional and creative endeavors. It includes a blend of [insert the type of work you do: design projects, code snippets, artworks, case studies, etc.], reflecting my dedication to learning and experimentation.
+              description=" This portfolio is an evolving collection of my work, showcasing the initial steps in my professional and creative endeavors.
                           Though it’s a version 0.0, it’s a testament to my passion and growth, serving as a foundation for bigger and better things to come. Stay tuned for future updates as I refine my skills and add new projects!
 ."
-              image="https://unsplash.com/photos/programming-code-abstract-technology-background-of-software-developer-and-computer-script-ltpb_WinC3Y"
+              image="https://images.unsplash.com/photo-1542831371-29b0f74f9713?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               tech={['HTML', 'CSS', 'Javascript']}
               github="https://github.com/vinyrb/portfolio"
               demo="https://vinyrb.github.io/portfolio/"
@@ -151,7 +151,7 @@ function App() {
               Rekayasa Perangkat Lunak
             </p>
             <p className={theme === 'dark' ? 'text-gray-400' : 'text-gray-500'}>
-              2023 - 2025
+              2022 - 2025
             </p>
             <div className="mt-4">
               <h4 className={`font-medium mb-2 ${
@@ -160,8 +160,8 @@ function App() {
               <ul className={`list-disc list-inside space-y-1 ${
                 theme === 'dark' ? 'text-gray-300' : 'text-gray-600'
               }`}>
-                <li>Make Web Portfolio</li>
-                <li>Database with PHP</li>
+                <li>Making Web Portfolio</li>
+                <li>Learning Database with PHP</li>
               </ul>
             </div>
           </motion.div>
